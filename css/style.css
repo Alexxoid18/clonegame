@@ -1,3 +1,31 @@
 body {
     text-align: center;
 }
+.winnerDiv {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.winnerMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 25px;
+    white-space: pre-line;
+}
+.blur {
+	filter: blur(5px);
+}
